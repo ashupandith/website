@@ -1,0 +1,131 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Main.master.cs" Inherits="Payroll_PayrollMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>HSRLM Society</title>
+    <link href="resources/user.css" rel="stylesheet" type="text/css" />
+    <link href="resources/pager.css" rel="stylesheet" type="text/css" />
+  
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+
+    <form id="form1" runat="server" >
+     <asp:ScriptManager ID="ScriptManager1" runat="server" />
+    <div align="center">
+        <table border="0" cellpadding="0" cellspacing="0" width="985px" style="border-collapse: collapse; background-color: #FFFFFF;">
+            <tr>
+                <td style="background-color:#4563A9; height: 4px;">
+                </td>
+            </tr>
+             <tr>
+                <td>
+                    <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;
+                        border-color: #111111" width="100%">
+                        <tr>
+                            <td>
+                                &nbsp;
+                            </td>
+                            <td valign="bottom" align="right">
+                            <table style="width:100%;" cellpadding="0" cellspacing="0" border="0"><tr><td style="text-align:left">
+                             <asp:Image ID="Image1" runat="server" ImageUrl="~/img1/Logo.jpg" 
+                                Width="951px" Height="135px" />
+                            </td>
+                            <td style="text-align:right">
+                            <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;
+                                    border-color: #111111">
+                                    <tr>
+                                        <td colspan="3">
+                                            &nbsp;
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width: 2px">
+                                            <img alt="" src="resources/images/transparent.gif" width="2" height="10" />
+                                        </td>
+                                        <td class="home_bg_text">
+                                            
+                                        </td>
+                                        <td style="width: 2">
+                                            &nbsp;
+                                            <img alt="" src="resources/images/transparent.gif" width="2px" height="10px" />
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                            </tr></table>
+                                
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            
+            <tr>
+                <td style="background-color:#204C67; text-align:right;" class="whitetext" >
+                 <div class="topmenu" style="width:100%;">
+                                                                   <ul>
+                                                                         <li runat="server" id="li_home"> <a href="Homepage.aspx" ><b>Home</b></a></li>
+                                                                                                                                             
+                                                                   </ul>
+                                                                   </div>
+                   
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color:#F89F15; height: 5px;">
+                </td>
+            </tr>
+            <tr>
+                <td style="height: 10px; ">
+                <img alt="" src="resources/images/transparent.gif" width="10px" height="15px" />
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 100%;">
+                    <div>
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                            <tr>
+                                <td style="width:10px;">
+                                    <img src="resources/Images/transparent.gif" alt="" width="10px" />
+                                </td>
+                                <td style="text-align: center;">
+                                    <div style="vertical-align: top; text-align: center;">
+                                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                        </asp:ContentPlaceHolder>
+                                    </div>
+                                </td>
+                                <td style="width: 10px;">
+                                    <img src="resources/Images/transparent.gif" alt="" width="10px" />
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td style="height: 10px">
+                    <img alt="" src="resources/images/transparent.gif" width="10px" height="10px" />
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: #204C67; height: 3px;">
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color:#F89F15; height: 2px;">
+                </td>
+            </tr>
+            <tr>
+                <td class="footer" align="center" style="padding: 10px; text-align: center">
+                    All Rights Reserved,Comapny © 2009
+                </td>
+            </tr>
+        </table>
+    </div>
+    </form>
+    	</body>
+</html>
